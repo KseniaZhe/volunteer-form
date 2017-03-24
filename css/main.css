@@ -20,7 +20,7 @@ fieldset,
 }
 
 i {
-  color: #6e8c62;
+  color: rgba(112, 173, 85, .7);
 }
 
 input[type="radio"] + label::before {
@@ -35,10 +35,23 @@ button {
   background-color: #6e8c62;
   border-color: #6e8c62;
 }
+
 textarea {
   height: 10em;
 }
 
 hr {
-  border-color: rgba(112, 173, 85, 0.3);
+  border-color: rgba(112, 173, 85, .3);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .space-left {
+    padding-left: .5rem;
+  }
+
+  .space-right {
+    padding-right: .5rem;
+  }
+
 }

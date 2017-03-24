@@ -4,221 +4,223 @@
   <meta charset="utf-8">
   <title>Volunteer Sign-up</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/grid.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="push-2">
     <div class="island-1-2">
-      <h1 class="pad-t">Apply to be a tree planter</h1>
-      <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+      <h1 class="pad-t-1-2 push-1-2">Apply to be a tree planter</h1>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
   </header>
   <form class="island-1-2" action="index.html" method="post">
     <fieldset>
-      <legend class="push">Personal details</legend>
-      <div class="">
-        <label class="micro" for="name">Full name</label>
-        <input id="name" type="text" name="" value="">
-        <p class="italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
-      </div>
-      <div class="">
-        <label class="micro" for="nickname">What should we call you?</label>
-        <input id="nickname" type="text" name="" value="">
-        <p class="italic micro">hat all your friends call you, e.g. “Liz”.</p>
-      </div>
-      <div class="push">
-        <label class="micro" for="birthdate">Date of birth</label>
-        <input id="birthdate" type="date" name="" value="" placeholder="yyyy-mm-dd">
-      </div>
-      <div class="push">
-        <label class="micro" for="t-shirt-size">T-shirt size</label>
-        <select id="t-shirt-size" class="" name="">
-          <option class="micro" value="">Select a t-shirt size</option>
-          <option class="micro" value="">Fitted: XS</option>
-          <option class="micro" value="">Fitted: S</option>
-          <option class="micro" value="">Fitted: M</option>
-          <option class="micro" value="">Fitted: L</option>
-          <option class="micro" value="">Fitted: XL</option>
-          <option class="micro" value="">Straight-cut: XS</option>
-          <option class="micro" value="">Straight-cut: S</option>
-          <option class="micro" value="">Straight-cut: M</option>
-          <option class="micro" value="">Straight-cut: L</option>
-          <option class="micro" value="">Straight-cut: XL</option>
-        </select>
-      </div>
-      <div class="push">
-        <label class="micro" for="email">Email</label>
-        <input id="email" type="email" name="" value="">
-      </div>
-      <div class="push">
-        <label class="micro" for="phone">Phone number <i>(optional)</i></label>
-        <input id="phone" type="tel" name="" value="">
-      </div>
-    </fieldset>
-    <hr>
-    <fieldset>
-      <legend class="push">Address</legend>
-      <div class="push">
-        <label class="micro" for="street">Street address</label>
-        <input id="street" type="text" name="" value="">
-      </div>
-      <div class="push">
-        <label class="micro" for="city">City</label>
-        <input id="city" type="text" name="" value="">
-      </div>
-      <div class="push">
-        <label class="micro" for="province">Province</label>
-        <select id="province" class="" name="">
-          <option class="micro" value="">Select a province</option>
-          <option class="micro" value="">Alberta</option>
-          <option class="micro" value="">British Columbia</option>
-          <option class="micro" value="">Manitoba</option>
-          <option class="micro" value="">New Brunswick</option>
-          <option class="micro" value="">Newfoundland & Labrador</option>
-          <option class="micro" value="">Northwest Territories</option>
-          <option class="micro" value="">Nova Scotia</option>
-          <option class="micro" value="">Nunavut</option>
-          <option class="micro" value="">Ontario</option>
-          <option class="micro" value="">Prince Edward Island</option>
-          <option class="micro" value="">Québec</option>
-          <option class="micro" value="">Saskatchewan</option>
-          <option class="micro" value="">Yukon</option>
-        </select>
-      </div>
-      <div class="push">
-        <label class="micro"for="postal-code">Postal code</label>
-        <input id="postal-code" type="text" name="" value="">
+      <legend class="push mega">Personal details</legend>
+      <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+          <label class="milli" for="name">Full name</label>
+          <input id="name" type="text" name="name" value="">
+          <p class="italic milli">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+          <label class="milli" for="nickname">What should we call you?</label>
+          <input id="nickname" type="text" name="nickname" value="">
+          <p class="italic milli">hat all your friends call you, e.g.“Liz”.</p>
+        </div>
+        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+          <label class="milli" for="birthdate">Date of birth</label>
+          <input id="birthdate" type="date" name="birthdate" value="">
+        </div>
+        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+          <label class="milli" for="t-shirt-size">T-shirt size</label>
+          <select id="t-shirt-size" class="" name="t-shirt-size">
+            <option class="milli" value="">Select a t-shirt size</option>
+            <option class="milli" value="">Fitted: XS</option>
+            <option class="milli" value="">Fitted: S</option>
+            <option class="milli" value="">Fitted: M</option>
+            <option class="milli" value="">Fitted: L</option>
+            <option class="milli" value="">Fitted: XL</option>
+            <option class="milli" value="">Straight-cut: XS</option>
+            <option class="milli" value="">Straight-cut: S</option>
+            <option class="milli" value="">Straight-cut: M</option>
+            <option class="milli" value="">Straight-cut: L</option>
+            <option class="milli" value="">Straight-cut: XL</option>
+          </select>
+        </div>
+        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 space-right">
+          <label class="milli" for="email">Email</label>
+          <input id="email" type="email" name="email" value="">
+        </div>
+        <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 space-left">
+          <label class="milli" for="phone">Phone number <i>(optional)</i></label>
+          <input id="phone" type="tel" name="phone" value="">
+        </div>
       </div>
     </fieldset>
     <hr>
     <fieldset>
-      <legend>What activities are you interested in helping with?</legend>
+      <legend class="push mega">Address</legend>
+      <div class="push">
+        <label class="milli" for="street">Street address</label>
+        <input id="street" type="text" name="street" value="">
+      </div>
+      <div class="push">
+        <label class="milli" for="city">City</label>
+        <input id="city" type="text" name="city" value="">
+      </div>
+      <div class="push">
+        <label class="milli" for="province">Province</label>
+        <select id="province" class="" name="province">
+          <option class="milli" value="">Select a province</option>
+          <option class="milli" value="">Alberta</option>
+          <option class="milli" value="">British Columbia</option>
+          <option class="milli" value="">Manitoba</option>
+          <option class="milli" value="">New Brunswick</option>
+          <option class="milli" value="">Newfoundland & Labrador</option>
+          <option class="milli" value="">Northwest Territories</option>
+          <option class="milli" value="">Nova Scotia</option>
+          <option class="milli" value="">Nunavut</option>
+          <option class="milli" value="">Ontario</option>
+          <option class="milli" value="">Prince Edward Island</option>
+          <option class="milli" value="">Québec</option>
+          <option class="milli" value="">Saskatchewan</option>
+          <option class="milli" value="">Yukon</option>
+        </select>
+      </div>
+      <div class="push">
+        <label class="milli" for="postal-code">Postal code</label>
+        <input id="postal-code" type="text" name="postal-code" value="">
+      </div>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend class="mega">What activities are you interested in helping with?</legend>
       <div class="push-1-8">
         <input id="digging" type="checkbox">
-        <label class="micro" for="digging">Digging holes</label>
+        <label class="milli" for="digging">Digging holes</label>
       </div>
       <div class="push-1-8">
         <input id="get-dirty" type="checkbox">
-        <label class="micro" for="get-dirty">Getting dirty</label>
+        <label class="milli" for="get-dirty">Getting dirty</label>
       </div>
       <div class="push-1-8">
         <input id="lifting" type="checkbox">
-        <label class="micro" for="lifting">Lifting heavy objects</label>
+        <label class="milli" for="lifting">Lifting heavy objects</label>
       </div>
       <div class="push-1-8">
         <input id="drive" type="checkbox">
-        <label class="micro" for="drive">Driving people</label>
+        <label class="milli" for="drive">Driving people</label>
       </div>
       <div class="push-1-8">
         <input id="trasporting" type="checkbox">
-        <label class="micro" for="trasporting">Transporting trees</label>
+        <label class="milli" for="trasporting">Transporting trees</label>
       </div>
       <div class="push-1-8">
         <input id="photo" type="checkbox">
-        <label class="micro" for="photo">Taking photos</label>
+        <label class="milli" for="photo">Taking photos</label>
       </div>
       <div class="push-1-8">
         <input id="publish" type="checkbox">
-        <label class="micro" for="publish">Online publishing</label>
+        <label class="milli" for="publish">Online publishing</label>
       </div>
       <div class="push-1-8">
         <input id="managing" type="checkbox">
-        <label class="micro" for="managing">Managing people</label>
+        <label class="milli" for="managing">Managing people</label>
       </div>
     </fieldset>
     <fieldset>
-      <legend>Do you have any experience with the following?</legend>
+      <legend class="mega">Do you have any experience with the following?</legend>
       <div class="push-1-8">
         <input id="shovel" type="checkbox">
-        <label class="micro" for="shovel">Shovels</label>
+        <label class="milli" for="shovel">Shovels</label>
       </div>
       <div class="push-1-8">
         <input id="gps" type="checkbox">
-        <label class="micro" for="gps">Hand-held GPS</label>
+        <label class="milli" for="gps">Hand-held GPS</label>
       </div>
       <div class="push-1-8">
         <input id="writing" type="checkbox">
-        <label class="micro" or="writing">Writing & blogging</label>
+        <label class="milli" for="writing">Writing & blogging</label>
       </div>
       <div class="push-1-8">
         <input id="photography" type="checkbox">
-        <label class="micro" for="photography">Photography</label>
+        <label class="milli" for="photography">Photography</label>
       </div>
       <div class="push-1-8">
         <input id="climbing" type="checkbox">
-        <label class="micro" for="climbing">Trail & hill climbing</label>
+        <label class="milli" for="climbing">Trail & hill climbing</label>
       </div>
       <div class="push-1-8">
         <input id="craft" type="checkbox">
-        <label class="micro" for="craft">Bush craft</label>
+        <label class="milli" for="craft">Bush craft</label>
       </div>
       <div class="push-1-8">
         <input id="atvs" type="checkbox">
-        <label class="micro" for="atvs">ATVs</label>
+        <label class="milli" for="atvs">ATVs</label>
       </div>
       <div class="push-1-8">
         <input id="identification" type="checkbox">
-        <label class="micro" for="identification">Plant identification</label>
+        <label class="milli" for="identification">Plant identification</label>
       </div>
       <div class="push-1-8">
         <input id="event" type="checkbox">
-        <label class="micro" for="event">Special event planning</label>
+        <label class="milli" for="event">Special event planning</label>
       </div>
       <div class="push-1-8">
         <input id="speaking" type="checkbox">
-        <label class="micro" for="speaking">Speaking to groups</label>
+        <label class="milli" for="speaking">Speaking to groups</label>
       </div>
     </fieldset>
     <hr>
     <fieldset>
-      <legend>Do you have a valid driver’s license?</legend>
+      <legend class="mega">Do you have a valid driver’s license?</legend>
       <div class="inline ">
-        <input id="yes" type="radio" name="valid-dr">
-        <label class="micro" for="yes">Yes</label>
+        <input id="yes-dr" type="radio" name="valid-dr">
+        <label class="milli" for="yes-dr">Yes</label>
       </div>
       <div class="inline">
-        <input id="no" type="radio" name="valid-dr">
-        <label class="micro" for="no">No</label>
+        <input id="no-dr" type="radio" name="valid-dr">
+        <label class="milli" for="no-dr">No</label>
       </div>
     </fieldset>
     <fieldset>
-      <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+      <legend class="mega">Do you have a pick-up truck you’d be willing to use?</legend>
       <div class="inline">
-        <input id="yes" type="radio" name="pick-up">
-        <label class="micro" for="yes">Yes</label>
+        <input id="yes-pick" type="radio" name="pick-up">
+        <label class="milli" for="yes-pick">Yes</label>
       </div>
       <div class="inline">
-        <input id="no" type="radio" name="pick-up">
-        <label class="micro" for="no">No</label>
+        <input id="no-pick" type="radio" name="pick-up">
+        <label class="milli" for="no-pick">No</label>
       </div>
     </fieldset>
     <fieldset class="">
-      <legend >Do you have up-to-date first-aid certification?</legend>
+      <legend class="mega">Do you have up-to-date first-aid certification?</legend>
       <div class="inline">
         <input id="yes" type="radio" name="first-aid">
-        <label class="micro" for="yes">Yes</label>
+        <label class="milli" for="yes">Yes</label>
       </div>
       <div class="inline">
         <input id="no" type="radio" name="first-aid">
-        <label class="micro" for="no">No</label>
+        <label class="milli" for="no">No</label>
       </div>
     </fieldset>
     <hr>
     <div class="fieldset bold push-2">
-      <label class="" for="comments-questions">Please let us know any comments or questions you may have.</label>
-      <textarea name="comments-questions"></textarea>
+      <label class="mega" for="comments">Please let us know any comments or questions you may have.</label>
+      <textarea id="comments" name="comments"></textarea>
     </div>
     <hr>
     <div class="text-center">
-      <button class="gutter" type="submit" name="button">Apply</button>
+      <button class="gutter" type="submit">Apply</button>
     </div>
   </form>
   <footer class="island">
-    <small class="micro">© Tree Hugger International Organization</small>
+    <small class="milli">© Tree Hugger International Organization</small>
   </footer>
 </body>
 </html>
