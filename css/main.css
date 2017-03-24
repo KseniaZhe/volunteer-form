@@ -20,7 +20,7 @@ fieldset,
 }
 
 i {
-  color: rgba(112, 173, 85, .7);
+  color: rgba(112, 173, 85, .9);
 }
 
 input[type="radio"] + label::before {
@@ -47,11 +47,11 @@ hr {
 @media only screen and (min-width: 38em) {
 
   .space-left {
-    padding-left: .5rem;
+    padding-left: .75rem;
   }
 
   .space-right {
-    padding-right: .5rem;
+    padding-right: .75rem;
   }
 
 }
